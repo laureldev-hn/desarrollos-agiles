@@ -1429,11 +1429,12 @@ section {
   color: #414c64;
   font-size: 14px;
   background: var(--blue);
+  border-top: solid 1px var(--yellow);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fafafc;
+  background: white;
 }
 
 #footer .footer-top .footer-contact {
