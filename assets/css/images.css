@@ -1,16 +1,15 @@
 .img-border {
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
-
 #about_img {
-    height: auto;
+    min-height: 50vh;
     background: linear-gradient(to right, rgb(226, 40, 51, 0.4), rgb(226, 40, 51, 0.2)), url("../img/about.jpg") center center;
     background-size: cover;
 }
 
 #team_img {
-    height: auto;
+    min-height: 50vh;
     background: linear-gradient(to right, rgb(226, 40, 51, 0.4), rgb(226, 40, 51, 0.2)), url("../img/team.jpg") center center;
     background-size: cover;
 }

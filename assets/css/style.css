@@ -266,6 +266,7 @@ h6 {
   background: rgba(45, 53, 69, 0.9);
   transition: 0.3s;
   z-index: 999;
+  
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -282,7 +283,8 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgb(25, 74, 132, 0.5);
+  border-radius: 2px;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -290,7 +292,7 @@ h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #414c64;
+  color: white;
 }
 
 .navbar-mobile a:hover,
@@ -575,6 +577,7 @@ section {
 .about p {
   font-size: 15px;
   color: #848484;
+  margin-left: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -651,11 +654,11 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: var(--blue);
 }
 
 .services .iconbox-blue:hover .icon {
-  background: #47aeff;
+  background: var(--blue);
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -663,11 +666,11 @@ section {
 }
 
 .services .iconbox-orange i {
-  color: #ffa76e;
+  color: var(--yellow);
 }
 
 .services .iconbox-orange:hover .icon {
-  background: #ffa76e;
+  background: var(--yellow);
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -675,11 +678,11 @@ section {
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+  color: var(--red);
 }
 
 .services .iconbox-pink:hover .icon {
-  background: #e80368;
+  background: var(--red);
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -720,6 +723,13 @@ section {
 
 .services .iconbox-teal:hover .icon i {
   color: #fff;
+}
+
+.services-technologies span{
+  background-color: var(--blue);
+  padding: 5px 10px;
+  color:white;
+  border-radius: 15px;
 }
 
 /*--------------------------------------------------------------
